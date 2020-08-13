@@ -1,0 +1,14 @@
+.nav {
+	padding: 1.5em;
+	max-width: 1200px;
+	margin: 0 auto;
+	&__logo {
+		font-size: 1.8em;
+		font-weight: 800;
+		letter-spacing: -0.05em;
+		cursor: pointer;
+		strong {
+			color: #f89008;
+		}
+	}
+}
