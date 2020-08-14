@@ -2,6 +2,9 @@ import React from 'react';
 import Nav from './Nav';
 
 const Form = ({ onSubmit, value, onChange }) => {
+	const scrollWindow = () => {
+		window.scrollBy(0, 500);
+	};
 	return (
 		<>
 			<Nav />
@@ -18,7 +21,7 @@ const Form = ({ onSubmit, value, onChange }) => {
 						value={value}
 						onChange={onChange}
 					/>
-					<button className="search__btn" type="submit">
+					<button className="search__btn" type="submit" onClick={scrollWindow}>
 						Find Recipe
 					</button>
 					<small>Example: "Pizza"</small>

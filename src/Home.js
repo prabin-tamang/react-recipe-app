@@ -41,7 +41,7 @@ const Home = () => {
 					setSearch(e.target.value);
 				}}
 			/>
-			<div className="recipes">
+			<div className="recipes" id="cardrecipe">
 				{recipes.map(recipe => {
 					return (
 						<Recipe
