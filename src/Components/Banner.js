@@ -3,7 +3,7 @@ import Nav from './Nav';
 
 const Form = ({ onSubmit, value, onChange }) => {
 	return (
-		<header>
+		<>
 			<Nav />
 			<header className="search">
 				<h1 className="search__heading">
@@ -24,7 +24,7 @@ const Form = ({ onSubmit, value, onChange }) => {
 					<small>Example: "Pizza"</small>
 				</form>
 			</header>
-		</header>
+		</>
 	);
 };
 
