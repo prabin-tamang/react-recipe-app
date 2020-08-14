@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Recipe from './Components/Recipe';
-import Form from './Components/Banner';
+import Banner from './Components/Banner';
 
 const Home = () => {
 	// api key details
@@ -34,7 +34,7 @@ const Home = () => {
 
 	return (
 		<div>
-			<Form
+			<Banner
 				onSubmit={getSearch}
 				value={search}
 				onChange={e => {
